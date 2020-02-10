@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	  <title>Application</title>
+	  <link rel="stylesheet" type="text/css" href="../css/all.css">	  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+  		<div class="row">
+        <div class="col-sm-12">        
+  				<nav class="navbar fixed-top navbar-light bg-light color-nav">
+  					<div><a class="navbar-brand"><h1>Search</h1></a></div>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="search form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">              
+            </form>
+					</nav>
+  				<br>
+  				<br>
+  				<nav id="nav" class="navAll navbar fixed-bottom navbar-light bg-light color-nav">
+    				<ul class="nav ul-change">
+  	  				<li class="li-change nav-item">
+  	    		    <a class="liAChange" href="../today.html" >
+  	 					    <i class="iconSize fas fa-clipboard-list"></i><br><span class="font-panel">Today</span>
+     					  </a>
+  	  				</li>
+  	  				<li class="li-change nav-item">  	    			
+  	    				<a class="liAChange" href="../Categories/categories.html">
+									<i class="iconSize fas fa-layer-group"></i><br><span class="font-panel">Categories</span>
+								</a>
+  	  				</li>
+  	  				<li class="li-change nav-item">
+  	    				<a class="liAChange" href="../Discover/discover.html">
+  	    					<i class="iconSize fas fa-star"></i><br><span class="font-panel">Discover</span>
+  	    				</a>
+  	  				</li>
+  	  				<li class="li-change nav-item">
+  	    				<a class="liAChange active" id="pills-home-tab" data-toggle="pill" href="#view-search" role="tab" aria-controls="pills-home" aria-selected="true">
+  	    					<i class="iconSize fab fa-sistrix"></i><br><span class="font-panel">Search</span>
+  	    				</a>
+  	  				</li>
+  	  				<li class="li-change nav-item">
+  	    				<a class="liAChange" href="../Pages/pages.html">
+  	    					<i class="iconSize fas fa-folder-open"></i><br><span class="font-panel">Pages</span>
+  	    				</a>
+  	  				</li>
+  					</ul>
+  				</nav>
+  			</div>
+        <div class="tab-pane fade show active" id="view-search" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="block search-container">
+            <div class="searchbar-hide-on-search">
+              <h2>Popular Categories</h2>
+              <ul class="popular-tags">
+                <li><a href="#" class="link"><span class="searchColor">Politics</span><i class="arrowDirect fas fa-chevron-right"></i></a></li>
+                <li><a href="#" class="link"><span class="searchColor">Sports</span><i class="arrowDirect fas fa-chevron-right"></i></a></li>
+                <li><a href="#" class="link"><span class="searchColor">Fashion</span><i class="arrowDirect fas fa-chevron-right"></i></i></a></li>
+                <li><a href="#" class="link"><span class="searchColor">Animals</span><i class="arrowDirect fas fa-chevron-right"></i></i></a></li>
+                <li><a href="#" class="link"><span class="searchColor">Travel</span><i class="arrowDirect fas fa-chevron-right"></i></i></a></li>
+                <li><a href="#" class="link"><span class="searchColor">Movies</span><i class="arrowDirect fas fa-chevron-right"></i></i></a></li>
+              </ul>
+              <br>
+              <h2>Popular Tags</h2>
+              <div class="list no-hairlines trending-search">
+                <ul>
+                  <li class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title"><a href="#" class="link searchColor">Ronaldo</a></div>
+                    </div>
+                  </li>
+                  <li class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title"><a href="#" class="link searchColor">Lil Wayne</a></div>
+                    </div>
+                  </li>
+                  <li class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title"><a href="#" class="link searchColor">Football</a></div>
+                    </div>
+                  </li>
+                  <li class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title"><a href="#" class="link searchColor">Lebron James</a></div>
+                    </div>
+                  </li>
+                  <li class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title"><a href="#" class="link searchColor">NBA</a></div>
+                    </div>
+                  </li>
+                  <li class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title"><a href="#" class="link searchColor">US Elections</a></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>          
+        </div>
+      </div>
+    </div>    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

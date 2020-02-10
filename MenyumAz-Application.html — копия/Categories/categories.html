@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	  <title>Application</title>
+	  <link rel="stylesheet" type="text/css" href="../css/all.css">	  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+  		<div class="row">
+        <div class="col-sm-12">        
+  				<nav class="navAll navbar fixed-top navbar-light bg-light color-nav">
+  					<a class="navbar-brand" href="../today.html"><i class="arrow-left fas fa-arrow-left"></i></a>
+  					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    					<span ><i class="menu-icon fas fa-bars"></i></span>
+  					</button>
+  					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+    					<ul class="navbar-nav">
+      					<li class="nav-item active">
+        					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      					</li>    
+    					</ul>
+  					</div>
+					</nav>
+  				<br>
+  				<br>
+  				<nav id="nav" class="navbar fixed-bottom navbar-light bg-light color-nav">
+    				<ul class="nav ul-change">
+  	  				<li class="li-change nav-item">
+  	    		    <a class="liAChange" href="../today.html" >
+  	 					    <i class="iconSize fas fa-clipboard-list"></i><br><span class="font-panel">Today</span>
+     					  </a>
+  	  				</li>
+  	  				<li class="li-change nav-item">  	    			
+  	    				<a class="liAChange active" id="pills-home-tab" data-toggle="pill" href="#view-categories" role="tab" aria-controls="pills-home" aria-selected="true">
+									<i class="iconSize fas fa-layer-group"></i><br><span class="font-panel">Categories</span>
+								</a>
+  	  				</li>
+  	  				<li class="li-change nav-item">
+  	    				<a class="liAChange" href="../Discover/discover.html">
+  	    					<i class="iconSize fas fa-star"></i><br><span class="font-panel">Discover</span>
+  	    				</a>
+  	  				</li>
+  	  				<li class="li-change nav-item">
+  	    				<a class="liAChange" href="../Search/search.html">
+  	    					<i class="iconSize fab fa-sistrix"></i><br><span class="font-panel">Search</span>
+  	    				</a>
+  	  				</li>
+  	  				<li class="li-change nav-item">
+  	    				<a class="liAChange" href="../Pages/pages.html">
+  	    					<i class="iconSize fas fa-folder-open"></i><br><span class="font-panel">Pages</span>
+  	    				</a>
+  	  				</li>
+  					</ul>
+  				</nav>
+  			</div>
+        <!-- Categories -->
+        <div class="tab-pane fade show active" id="view-categories" role="tabpanel" aria-labelledby="pills-home-tab">        
+	        <br>
+	  			<div class="col-sm-12">
+	          <h1>Categories</h1>
+	        </div>
+	        <br>
+	        <div class="col-sm-12 categories-container">
+	          <a href="/category/">
+	            <div class="category card" id="sports">
+	              <h2>Sports</h2>
+	            </div>
+	          </a>
+	          <a href="/category/">
+	            <div class="category card" id="travel">
+	              <h2>Travel</h2>
+	            </div>
+	          </a>
+	          <a href="/category/">
+	            <div class="category card" id="music">
+	              <h2>Music</h2>
+	            </div>
+	          </a>
+	          <a href="/category/">
+	            <div class="category card" id="gaming">
+	              <h2>Gaming</h2>
+	            </div>
+	          </a>
+	          <a href="/category/">
+	            <div class="category card" id="photo">
+	              <h2>Photo</h2>
+	            </div>
+	          </a>
+	          <a href="/category/">
+	            <div class="category card" id="food">
+	              <h2>Food</h2>
+	            </div>
+	          </a>
+	        </div>
+	        <br><br>
+	        <div class="col-sm-12">
+	          <span class="title-date">Recent posts</span>
+	          <div class="title-with-link">
+	            <h1 class="title-category-btn">Sports</h1>
+	            <a href="/category/">
+	              <button type="button" class="btn btn-light see-all-btn">SEE ALL</button>
+	            </a>
+	          </div>
+	        </div>
+	        <br>
+	        <div class="col-sm-12 two-columns-cards">
+	          <a href="/single/">
+	            <div class="card">
+	              <img class="card-image" src="../image/thumb-4.jpg" alt="">
+	              <div class="card-infos">
+	                <h2 class="card-title">Nadal Wins at Roland Garros</h2>
+	              </div>
+	            </div>
+	          </a>
+	          <a href="/single/">
+	            <div class="card">
+	              <img class="card-image" src="../image/thumb-8.jpg" alt="">
+	              <div class="card-infos">
+	                <h2 class="card-title">Moto-Cross: The Champions Made the Show</h2>
+	              </div>
+	            </div>
+	          </a>
+	          <a href="/single/">
+	            <div class="card">
+	              <img class="card-image" src="../image/thumb-17.jpg" alt="">
+	              <div class="card-infos">
+	                <h2 class="card-title">Will Conor Return to the UFC Octagon?</h2>
+	              </div>
+	            </div>
+	          </a>
+	          <a href="/single/">
+	            <div class="card">
+	              <img class="card-image" src="../image/thumb-18.jpg" alt="">
+	              <div class="card-infos">
+	                <h2 class="card-title">Anna Gasser's Snowboard Win</h2>
+	              </div>
+	            </div>
+	          </a>
+	        </div>
+	        <br>
+	        <div class="col-sm-12">
+	          <span class="title-date">Recent posts</span>
+	          <div class="title-with-link">
+	            <h1>Lifestyle</h1>
+	            <a href="/category/">
+	              <button type="button" class="btn btn-light see-all-btn">SEE ALL</button>
+	            </a>
+	          </div>
+	        </div>
+	        <br>
+	        <div class="col-sm-12 two-columns-cards">
+	          <a href="/single/">
+	            <div class="card">
+	              <img class="card-image" src="../image/thumb-9.jpg" alt="">
+	              <div class="card-infos">
+	                <h2 class="card-title">The Best Exotic Destinations</h2>
+	              </div>
+	            </div>
+	          </a>
+	          <a href="/single/">
+	            <div class="card">
+	              <img class="card-image" src="../image/thumb-6.jpg" alt="">
+	              <div class="card-infos">
+	                <h2 class="card-title">Top Sunglasses Models for This Summer</h2>
+	              </div>
+	            </div>
+	          </a>
+	          <a href="/single/">
+	            <div class="card">
+	            <img class="card-image" src="../image/thumb-11.jpg" alt="">
+	              <div class="card-infos">
+	                <h2 class="card-title">Join the Paris Body Painting Contest</h2>
+	              </div>
+	            </div>
+	          </a>
+	          <a href="/single/">
+	            <div class="card">
+	              <img class="card-image" src="../image/thumb-3.jpg" alt="">
+	              <div class="card-infos">
+	                <h2 class="card-title">Nicki Minaj in Featuring with Drake!</h2>
+	              </div>
+	            </div>
+	          </a>
+	        </div>                	
+	        <br><br><br><br>                          
+	      </div>
+      </div>
+    </div>    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
